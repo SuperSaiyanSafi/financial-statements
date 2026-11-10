@@ -49,6 +49,29 @@ function Disclosures() {
   </tbody>
 </table>
 </div>
+<h2 className="font-display text-2xl mt-10 mb-3">Accounts receivable</h2>
+<div className="max-w-2xl mx-auto border border-edge rounded-md bg-surface overflow-x-auto">
+<table className="w-full">
+  <thead><tr>
+    <th scope="col" className="text-left px-5 py-3 bg-raised">Account</th>
+    <th scope="col" className="text-right px-5 py-3 bg-raised">Amount (USD)</th>
+  </tr></thead>
+  <tbody>
+    <tr>
+      <th scope="row" className="text-left px-5 py-3 border-t border-edge">Receivables A</th>
+      <td id="note-receivables-a" className="text-right px-5 py-3 border-t border-edge tabular-nums whitespace-nowrap">84,650</td>
+    </tr>
+    <tr>
+      <th scope="row" className="text-left px-5 py-3 border-t border-edge">Receivables B</th>
+      <td id="note-receivables-b" className="text-right px-5 py-3 border-t border-edge tabular-nums whitespace-nowrap">65,350</td>
+    </tr>
+    <tr>
+      <th scope="row" className="text-left px-5 py-3 border-t border-edge font-semibold bg-raised">Total receivables</th>
+      <td id="note-receivables-total" className="text-right px-5 py-3 border-t-4 border-double font-semibold bg-raised border-edge tabular-nums whitespace-nowrap">150,000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
     </div>
   )
 }
